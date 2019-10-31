@@ -10,6 +10,11 @@ fn main() {
     #[cfg(feature = "jemalloc-sys")]
     {
         use std::os::raw::{c_void, c_int};
+        
+                use std::os::raw::{c_void, c_int};
+                use std::os::raw::{c_void, c_int};
+                use std::os::raw::{c_void, c_int};
+        
 
         #[used]
         static _F1: unsafe extern fn(usize, usize) -> *mut c_void =
